@@ -1,0 +1,32 @@
+
+export default function NavBar() {
+    return (
+        <div className="p-3 rounded-b-lg text-white bg-[#1F2937] flex justify-between text-lg">
+            <div className="flex justify-center items-center">Solana RPC Utility</div>
+            <div className="flex justify-evenly">
+                <div className="flex justify-center items-center">Home</div>
+                <div className="mr-10 ml-10 flex mt-4 justify-center items-center w-[200px]">
+                    <div className="mb-3 xl:w-96">
+                        <select placeholder="Utilities" className="form-select appearance-none block w-full px-3 py-1.5 text-base font-normal text-white bg-[#374151] bg-clip-padding bg-no-repeat border-gray-300 rounded transition ease-in-out m-0 focus:text-white focus:bg-zinc-500 focus:border-gray-600 focus:outline-none" aria-label="Default select example">
+                            <option value="1">Airdrop to Devnet</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+                <div className="w-[450px] flex justify-center items-center">
+                    <form>
+                        <label className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
+                        <div className="relative">
+                            <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                                <svg aria-hidden="true" className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                            </div>
+                            <input type="search" className="block p-4 pl-10 w-[450px] text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Mockups, Logos..." required />
+                            <button type="submit" className="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    )
+}
