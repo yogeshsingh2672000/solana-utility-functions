@@ -2,7 +2,7 @@ export default function SuccessMessaage(props: any) {
     const { message } = props;
     return (
         <>
-            <div className="relative flex justify-center items-center">
+            <div className="relative flex justify-center items-center z-50">
 
                 <button className="focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 focus:outline-none absolute z-0 top-48 py-2 px-7 bg-gray-800 text-white rounded text-base hover:bg-black">Open</button>
 
