@@ -17,8 +17,14 @@ const getBalance = async (address: any) => {
     const balance = tx / LAMPORTS_PER_SOL;
     return balance
   }
+  const getAccountInfo = async (address: any) => {
+    const publicKey = new PublicKey(address);
+    const tx = await conn.getAccountInfo(publicKey, "confirmed");
+    console.log(tx)
+  }
 
 export {
   airdrop,
-  getBalance
+  getBalance,
+  getAccountInfo
 }
