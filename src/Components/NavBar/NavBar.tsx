@@ -2,18 +2,10 @@
 export default function NavBar() {
     return (
         <div className="p-3 rounded-b-lg text-white bg-[#1F2937] flex justify-between text-lg">
-            <div className="flex justify-center items-center">Solana RPC Utility</div>
+            <div className="flex justify-center items-center font-bold text-2xl">Solana RPC Utility</div>
             <div className="flex justify-evenly">
-                <div className="flex justify-center items-center">Home</div>
-                <div className="mr-10 ml-10 flex mt-4 justify-center items-center w-[200px]">
-                    <div className="mb-3 xl:w-96">
-                        <select placeholder="Utilities" className="form-select appearance-none block w-full px-3 py-1.5 text-base font-normal text-white bg-[#374151] bg-clip-padding bg-no-repeat border-gray-300 rounded transition ease-in-out m-0 focus:text-white focus:bg-zinc-500 focus:border-gray-600 focus:outline-none" aria-label="Default select example">
-                            <option value="1">Airdrop to Devnet</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
-                </div>
+                <div className="flex justify-center items-center border-gray pl-4 pr-4 bg-[#374151] rounded-[8px] hover:text-blue-400 cursor-pointer">Home</div>
+                <div className="ml-10 mr-10 flex justify-center items-center border-gray pl-4 pr-4 bg-[#374151] rounded-[8px] hover:text-blue-400 cursor-pointer">Explore RPC API's</div>
                 <div className="w-[450px] flex justify-center items-center">
                     <form>
                         <label className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
