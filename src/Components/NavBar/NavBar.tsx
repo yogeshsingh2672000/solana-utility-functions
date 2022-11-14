@@ -1,7 +1,7 @@
 
 export default function NavBar() {
     return (
-        <div className="p-3 rounded-b-lg text-white bg-[#1F2937] flex justify-between text-lg">
+        <div className="p-3 h-1/5 rounded-b-lg text-white bg-[#1F2937] flex justify-between text-lg">
             <div className="flex justify-center items-center font-bold text-2xl">Solana RPC Utility</div>
             <div className="flex justify-evenly">
                 <div className="flex justify-center items-center border-gray pl-4 pr-4 bg-[#374151] rounded-[8px] hover:text-blue-400 cursor-pointer">Home</div>

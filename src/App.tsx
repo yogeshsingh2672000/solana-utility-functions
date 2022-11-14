@@ -1,6 +1,6 @@
 import './App.css';
+import Footer from './Components/Footer/Footer';
 import NavBar from './Components/NavBar/NavBar';
-import Spinner from './Components/Spinner/Spinner';
 import Utilities from './Components/Utilities/Utilities';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Utilities />
-      {/* <Spinner /> */}
+      <Footer />
     </div>
   );
 }
