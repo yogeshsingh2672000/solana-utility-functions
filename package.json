@@ -1,8 +1,8 @@
 {
+  "homepage": "https://yogeshsingh2672000.github.io/solana-utility-functions",
   "name": "solana-utility-functions",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yogeshsingh2672000.github.io/solana-utility-functions/",
   "dependencies": {
     "@project-serum/anchor": "^0.18.0",
     "@solana/wallet-adapter-react": "^0.15.24",
