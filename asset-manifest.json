@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.fdc3d0e7.css",
-    "main.js": "/static/js/main.fe6899f3.js",
-    "static/js/787.deedcb14.chunk.js": "/static/js/787.deedcb14.chunk.js",
-    "static/media/background.mp4": "/static/media/background.da4f0920885d19615c04.mp4",
-    "index.html": "/index.html",
-    "main.fdc3d0e7.css.map": "/static/css/main.fdc3d0e7.css.map",
-    "main.fe6899f3.js.map": "/static/js/main.fe6899f3.js.map",
-    "787.deedcb14.chunk.js.map": "/static/js/787.deedcb14.chunk.js.map"
+    "main.css": "/solana-utility-functions/static/css/main.fdc3d0e7.css",
+    "main.js": "/solana-utility-functions/static/js/main.6d6b0769.js",
+    "static/js/787.deedcb14.chunk.js": "/solana-utility-functions/static/js/787.deedcb14.chunk.js",
+    "static/media/background.mp4": "/solana-utility-functions/static/media/background.da4f0920885d19615c04.mp4",
+    "index.html": "/solana-utility-functions/index.html",
+    "main.fdc3d0e7.css.map": "/solana-utility-functions/static/css/main.fdc3d0e7.css.map",
+    "main.6d6b0769.js.map": "/solana-utility-functions/static/js/main.6d6b0769.js.map",
+    "787.deedcb14.chunk.js.map": "/solana-utility-functions/static/js/787.deedcb14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fdc3d0e7.css",
-    "static/js/main.fe6899f3.js"
+    "static/js/main.6d6b0769.js"
   ]
 }
