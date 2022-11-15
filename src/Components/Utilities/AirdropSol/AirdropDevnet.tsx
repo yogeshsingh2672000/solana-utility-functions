@@ -16,6 +16,7 @@ export default function AirdropSol() {
             setLoading(false)
         }).catch((err) => {
             console.log(err);
+            setMessage("Slow down, too many requests")
             setLoading(false)
         });
     }
