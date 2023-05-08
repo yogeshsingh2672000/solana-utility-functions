@@ -17,7 +17,7 @@ function GetBalance() {
         setMessageStatus(true);
     }
     useEffect(() => {
-        setMessage(`${balance} SOL`);
+        setMessage(`Balance ${balance} SOL`);
         setTimeout(() => {
             setMessageStatus(false)
         }, 1200);
