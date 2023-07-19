@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  background-color: #18122B;
 }
 
 .App-logo {
@@ -35,4 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.playground-bg-gradient{
+  background-image: url("./assets/herogradient.png");
+  /* position: absolute;
+  background-position-x: center;
+  background-position-y: center;
+  background-image: url(/herogradient.png); */
+  background-repeat: no-repeat, no-repeat;
+  background-clip: border-box;
+  background-size: 1000px, 1000px;
+  background-position-x: center;
+  background-position-y: -230px;
+  opacity: 1;
 }

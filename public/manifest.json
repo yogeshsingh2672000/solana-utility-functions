@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Solana RPC utility",
+  "name": "Solana comman rpc utility with auth",
   "icons": [
     {
       "src": "favicon.ico",
