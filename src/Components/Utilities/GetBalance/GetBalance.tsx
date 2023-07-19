@@ -28,7 +28,7 @@ function GetBalance() {
             <div className="flex justify-center">
                 <div className="block rounded-lg shadow-lg bg-[#1F2937] max-w-sm text-center">
                     <div className="py-3 px-6 border-b border-gray-300 text-white">
-                        Fetch Balance
+                        Fetch Balance (Devnet)
                     </div>
                     <div className="p-6">
                         <input type="text" onChange={handleChange} value={walletAddress} className="w-[300px] bg-[#374151] rounded form-control block w-full px-3 py-1.5 mb-3 text-base font-normal text-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:border-blue-600 focus:outline-none" />
