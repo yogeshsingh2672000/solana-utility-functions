@@ -55,10 +55,11 @@ function Playground() {
           <div className="py-3 px-6 border-b border-gray-300 text-white">
               Airdop 2 Sol (Devnet)
           </div>
-          <div className="p-6">
+          <div className="p-6 pb-0">
               <input value={userInput.airdrop} onChange={(e:any)=>handleInput(e, "airdrop")} placeholder='Solana Address' type="text" className="w-[300px] bg-transparent form-control block px-3 py-1.5 mb-3 text-base font-normal text-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:border-blue-600 focus:outline-none" />
           </div>
-          <div className="p-4">
+          <div onClick={() => setUserInput({...userInput, airdrop: context.user})} className='pl-6 text-gray-300 cursor-pointer'>Import connected address</div>
+          <div className="p-6">
               <p className="text-white text-base mb-4">
                   {message.airdrop ? message.airdrop : ""}
               </p>
@@ -70,10 +71,11 @@ function Playground() {
           <div className="py-3 px-6 border-b border-gray-300 text-white">
               Fetch Sol balance (Devnet)
           </div>
-          <div className="p-6">
+          <div className="p-6 pb-0">
               <input value={userInput.balance} onChange={(e:any)=>handleInput(e, "balance")} placeholder='Solana Address' type="text" className="w-[300px] bg-transparent form-control block px-3 py-1.5 mb-3 text-base font-normal text-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:border-blue-600 focus:outline-none" />
           </div>
-          <div className="p-4">
+          <div onClick={() => setUserInput({...userInput, balance: context.user})} className='pl-6 text-gray-300 cursor-pointer'>Import connected address</div>
+          <div className="p-6">
               <p className="text-white text-base mb-4">
                   {message.balance ? message.balance : ""}
               </p>
