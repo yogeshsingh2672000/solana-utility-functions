@@ -11,9 +11,6 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import {
-  CubeTransparentIcon,
-  UserCircleIcon,
-  CodeBracketSquareIcon,
   ChevronDownIcon,
   PowerIcon,
 } from "@heroicons/react/24/outline";
